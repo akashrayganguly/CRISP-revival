@@ -131,7 +131,7 @@ echo "==========================================================================
 mkdir -p logs
 
 # Navigate to working directory
-WORK_DIR="/home/akashg/time-series/python-files/Informer-RPE-Revin-Sharding-Etth"
+WORK_DIR="/home/akashg/time-series/python-files/Informer-RPE-Revin-Sharding-Etth-dropout"
 cd $WORK_DIR || {
     echo "ERROR: Cannot cd to $WORK_DIR"
     exit 1
