@@ -135,7 +135,7 @@ def create_args():
     args.d_layers = 1
     args.s_layers = [3, 2, 1]
     args.d_ff = 2048
-    args.dropout = 0.05
+    args.dropout = 0.15
     args.attn = 'prob'
     args.embed = 'timeF'
     args.activation = 'gelu'
